@@ -1,0 +1,280 @@
+html
+{
+  background-color: #E0E0E0;
+}
+
+body
+{
+  background-color: #E0E0E0 !important;
+}
+
+nav
+{
+  border: none !important;
+}
+
+.navContainer
+{
+  background-color: #1E1E1E !important;
+  height: 65px;
+}
+
+.navbar-right li a
+{
+  color: #E0E0E0 !important;
+  font-family: "Josefin Sans";
+  text-shadow: none !important;
+  letter-spacing: 2px;
+  margin-top: 9px;
+  margin-right: 25px;
+}
+
+.navbar-right li a:hover
+{
+  color: #E91E63 !important;
+  transition: .3s ease;
+}
+
+.navbar-brand img
+{
+  height: 35px;
+  margin-left: 25px;
+}
+
+.row
+{
+  border: 1px solid pink;
+  background-color: #E0E0E0
+}
+
+.fullContent
+{
+  padding: 50px;
+}
+
+.halfContent
+{
+  padding-top: 150px;
+}
+
+.halfContent h2
+{
+  margin-left: -10%;
+  margin-top: 8%;
+}
+
+.halfContent p
+{
+  margin: 50px;
+}
+
+h1
+{
+  font-family: "Raleway" !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  color: #FFFFFF !important;
+}
+
+h2
+{
+  font-family: "Raleway" !important;
+  font-size: 50px !important;
+  color: #E91E63 !important;
+  font-weight: 700 !important;
+  margin-left: 50px;
+}
+
+h3
+{
+  font-family: "Josefin Sans" !important;
+  font-size: 30px !important;
+  color: #1E1E1E !important;
+}
+
+p
+{
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
+.footer
+{
+  height: 224px;
+  background-color: #AD1457;
+}
+
+.testimonialBox
+{
+  background-color: #E91E63;
+  height: 153px;
+}
+
+.testimonial
+{
+  font-family: "Josefin Slab";
+  font-size: 30px;
+  font-style: italic;
+  color: #E0E0E0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.testimonialName
+{
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  color: #E0E0E0;
+  text-align: center;
+}
+
+.heroBanner
+{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroBanner video
+{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.heroText
+{
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+}
+
+.parallaxBanner1
+{
+  height: 271px;
+  width: auto;
+  background-image: url(../images/banner1.JPG);
+}
+
+.parallaxBanner2
+{
+  height: 130vh;
+  width: 50vw;
+  background-image: url(../images/whiteboard.jpg);
+}
+
+.parallaxBanner3
+{
+  height: 130vh;
+  width: 50vw;
+  background-image: url(../images/laptop.jpg);
+}
+
+.parallaxBanner4
+{
+  height: 271px;
+  width: auto;
+  background-image: url(../images/team.jpg);
+}
+
+.gap
+{
+  height: 100px;
+  background-color: #E0E0E0;
+}
+
+.vidThumb
+{
+  height: 361px;
+  border: 1px solid green;
+}
+
+.navPadding
+{
+  padding-top: 100px;
+}
+
+.navPadding h2
+{
+  text-align: center !important;
+}
+
+.navPadding p
+{
+  text-align: center;
+}
+
+label
+{
+  color: #000000;
+  font-family: "Roboto" !important;
+  font-weight: normal;
+  text-align: center;
+}
+
+input[type="text"]
+{
+  border: 0px;
+  border-bottom: 1px solid #32C8B6;
+  border-style: solid;
+  width: 180px;
+  background-color: #E0E0E0;
+}
+
+input[type="text"]:focus
+{
+  border-bottom: 1px solid #E91E63;
+  transition: 0.3s ease;
+}
+
+input[type="password"]
+{
+  border: 0px;
+  border-bottom: 1px solid #32C8B6;
+  border-style: solid;
+  width: 180px;
+  background-color: #E0E0E0;
+}
+
+input[type="password"]:focus
+{
+  border-bottom: 1px solid #E91E63;
+  transition: 0.3s ease;
+}
+
+input[type="submit"]
+{
+  border: 0px;
+  background-color: #32C8B6;
+  height: 37px;
+  width: 114px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+input[type="submit"]:hover
+{
+  background-color: #E91E63;
+  transition: 0.3s ease;
+}
+
+.adminLoginForm
+{
+  text-align: center;
+}
+
+.formArea
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.formSubmit
+{
+  padding-top: 50px;
+}
