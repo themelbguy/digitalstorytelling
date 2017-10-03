@@ -57,7 +57,8 @@ include "includes/myFunctions.php";
 	<!-- link to external JavaScript file -->
 	<script type="text/javascript" src="js/scripts.js"></script>
 
-	<!-- link to google fonts -->
+	<!-- link to Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab|Roboto:400,700" rel="stylesheet">
 
 	<!-- link to ScrollMagic -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
