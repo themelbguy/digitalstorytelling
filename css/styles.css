@@ -1,0 +1,354 @@
+html
+{
+  background-color: #E0E0E0;
+}
+
+body
+{
+  background-color: #E0E0E0 !important;
+}
+
+nav
+{
+  border: none !important;
+}
+
+/* BACK ON TOP STYLES */
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  z-index: 1;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*/
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(30, 30, 30, 1) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  /*-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;*/
+}
+
+.cd-top:hover
+{
+  background: rgba(30, 30, 30, 1) url(../images/cd-top-arrow-colour.svg) no-repeat center 50%;
+  transition: 0.3s ease;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity 0s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0s 0s, visibility 0s 0s;
+  transition: opacity 0s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  /*opacity: 1;*/
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 45px;
+    width: 45px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+.navbar-brand
+{
+  height: auto;
+  width: 270px;
+  margin-left: 25px !important;
+  margin-top: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/DSTlogo.png);
+}
+
+.navbar-brand:hover
+{
+  background-image: url(../images/DSTlogoColour.png);
+  transition: 0.3s ease;
+}
+
+.navContainer
+{
+  background-color: #1E1E1E !important;
+  height: 65px;
+}
+
+.navbar-right li a
+{
+  color: #E0E0E0 !important;
+  font-family: "Josefin Sans";
+  text-shadow: none !important;
+  letter-spacing: 2px;
+  margin-top: 9px;
+  margin-right: 25px;
+}
+
+.navbar-right li a:hover
+{
+  color: #E91E63 !important;
+  transition: .3s ease;
+}
+
+.navbar-brand img
+{
+  height: 35px;
+  margin-left: 25px;
+}
+
+.row
+{
+  /*border: 1px solid pink;*/
+  background-color: #E0E0E0
+}
+
+.fullContent
+{
+  padding: 50px;
+}
+
+.halfContent
+{
+  padding-top: 150px;
+}
+
+.halfContent h2
+{
+  margin-left: -10%;
+  margin-top: 8%;
+}
+
+.halfContent p
+{
+  margin: 50px;
+}
+
+h1
+{
+  font-family: "Raleway" !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  color: #FFFFFF !important;
+}
+
+h2
+{
+  font-family: "Raleway" !important;
+  font-size: 50px !important;
+  color: #E91E63 !important;
+  font-weight: 700 !important;
+  margin-left: 50px;
+}
+
+h3
+{
+  font-family: "Josefin Sans" !important;
+  font-size: 30px !important;
+  color: #1E1E1E !important;
+}
+
+p
+{
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
+.footer
+{
+  height: 224px;
+  background-color: #AD1457;
+}
+
+.testimonialBox
+{
+  background-color: #E91E63;
+  height: 153px;
+}
+
+.testimonial
+{
+  font-family: "Josefin Slab";
+  font-size: 30px;
+  font-style: italic;
+  color: #E0E0E0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.testimonialName
+{
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  color: #E0E0E0;
+  text-align: center;
+}
+
+.heroBanner
+{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroBanner video
+{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.heroText
+{
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+}
+
+.parallaxBanner img
+{
+  width: 100vw;
+  height: 290px;
+  overflow: hidden;
+  object-fit: cover;
+  margin-left: -16px;
+}
+
+.parallaxBanner2
+{
+  height: 130vh;
+  width: 50vw;
+  background-image: url(../images/whiteboard.jpg);
+}
+
+.parallaxBanner3
+{
+  height: 130vh;
+  width: 50vw;
+  background-image: url(../images/laptop.jpg);
+}
+
+.gap
+{
+  height: 100px;
+  background-color: #E0E0E0;
+}
+
+.vidThumb
+{
+  height: 361px;
+  border: 1px solid green;
+}
+
+.navPadding
+{
+  padding-top: 100px;
+}
+
+.navPadding h2
+{
+  text-align: center !important;
+}
+
+.navPadding p
+{
+  text-align: center;
+}
+
+label
+{
+  color: #000000;
+  font-family: "Roboto" !important;
+  font-weight: normal;
+  text-align: center;
+}
+
+input[type="text"]
+{
+  border: 0px;
+  border-bottom: 1px solid #32C8B6;
+  border-style: solid;
+  width: 180px;
+  background-color: #E0E0E0;
+}
+
+input[type="text"]:focus
+{
+  border-bottom: 1px solid #E91E63;
+  transition: 0.3s ease;
+}
+
+input[type="password"]
+{
+  border: 0px;
+  border-bottom: 1px solid #32C8B6;
+  border-style: solid;
+  width: 180px;
+  background-color: #E0E0E0;
+}
+
+input[type="password"]:focus
+{
+  border-bottom: 1px solid #E91E63;
+  transition: 0.3s ease;
+}
+
+input[type="submit"]
+{
+  border: 0px;
+  background-color: #32C8B6;
+  height: 37px;
+  width: 114px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+input[type="submit"]:hover
+{
+  background-color: #E91E63;
+  transition: 0.3s ease;
+}
+
+.adminLoginForm
+{
+  text-align: center;
+}
+
+.formArea
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.formSubmit
+{
+  padding-top: 50px;
+}
