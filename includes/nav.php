@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/DSTlogo.png" alt="Digital Storytelling Logo"></a>
+      <a href="index.php"><div class="navbar-brand"></div></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
