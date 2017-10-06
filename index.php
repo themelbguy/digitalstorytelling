@@ -116,9 +116,220 @@ include "includes/head.php";
           <h2>TEAM</h2>
         </div>
 
-        <div class="row footer">
-          <p><a href="adminLogin.php">ADMINISTRATOR</a></p>
+        <div class="row">
+          <div id="map"></div>
         </div>
+
+        <script>
+          function initMap() {
+            // Styles a map in night mode.
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -37.822150, lng: 145.038955},
+              zoom: 15,
+              styles: [
+                        {
+                          elementType: "geometry",
+                          stylers:
+                          [
+                            {
+                              color: "#242f3e"
+                            }
+                          ]
+                        },
+                        {
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#746855"
+                            }
+                          ]
+                        },
+                        {
+                          elementType: "labels.text.stroke",
+                          stylers:
+                          [
+                            {
+                              color: "#242f3e"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "administrative.locality",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#e91e63"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "poi",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#e91e63"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "poi.park",
+                          elementType: "geometry",
+                          stylers:
+                          [
+                            {
+                              color: "#176140"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "poi.park",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#32c8b6"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "road",
+                          elementType: "geometry",
+                          stylers:
+                          [
+                            {
+                              color: "#38414e"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "road",
+                          elementType: "geometry.stroke",
+                          stylers:
+                          [
+                            {
+                              color: "#212a37"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "road",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#9ca5b3"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "road.highway",
+                          elementType: "geometry",
+                          stylers:
+                          [
+                            {
+                              color: "#951440"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "road.highway",
+                          elementType: "geometry.stroke",
+                          stylers:
+                          [
+                            {
+                              color: "#1f2835"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "road.highway",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#e91e63"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "transit",
+                          elementType: "geometry",
+                          stylers:
+                          [
+                            {
+                              color: "#2f3948"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "transit.station",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#e91e63"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "water",
+                          elementType: "geometry",
+                          stylers:
+                          [
+                            {
+                              color: "#24616d"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "water",
+                          elementType: "labels.text.fill",
+                          stylers:
+                          [
+                            {
+                              color: "#7c8ea9"
+                            }
+                          ]
+                        },
+                        {
+                          featureType: "water",
+                          elementType: "labels.text.stroke",
+                          stylers:
+                          [
+                            {
+                              color: "#17263c"
+                            }
+                          ]
+                        }
+                      ]
+                    });
+
+                    var marker = new google.maps.Marker({
+                      position: {lat: -37.822150, lng: 145.038955},
+                      map: map,
+                      title: 'Swinburne University'
+                    });
+                  }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOrX2xU3WwbhwiX3EdaLFvxewRXHcWDhY&callback=initMap" async defer></script>
+
+        <div class="row gap">
+          <h2>CONTACT</h2>
+        </div>
+
+        <div class="row parallaxBanner">
+          <img src="images/banner1.JPG">
+        </div>
+
+        <div class="row gap">
+          <h2>FAQ'S</h2>
+        </div>
+
+        <?php include "includes/footer.php"; ?>
+        
       </div>
 
   </body>
