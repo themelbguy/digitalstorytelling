@@ -18,7 +18,8 @@ include "includes/head.php";
 
       <?php include "includes/nav.php"; ?>
 
-        <a id="top"></a>
+      <a href="#0" class="cd-top"></a>
+
         <div class="heroBanner">
           <video autoplay muted loop class="embed-responsive-item" id="autovid">
               <source src="images/mm1_1.mp4" type="video/mp4">
@@ -30,7 +31,6 @@ include "includes/head.php";
         </div>
 
       <div class="container-fluid">
-        <div class="backToTop" onclick="topFunction()"><a href="#top">Top</a></div>
         <div class="row testimonialBox">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <p class="testimonial">“The end results of the digital stories were so professional.”</p>
@@ -38,9 +38,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner1"></div>
+        <div class="row parallaxBanner">
+          <img src="images/banner1.JPG">
+        </div>
 
-        <div class="row gap">
+        <div class="row gap" id="section1">
           <h2>PROJECTS</h2>
         </div>
 
@@ -86,7 +88,7 @@ include "includes/head.php";
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner2">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="section2">
             <h2>WORKSHOPS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -98,7 +100,7 @@ include "includes/head.php";
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner3">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="section3">
             <h2>RESOURCES</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -106,9 +108,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner4"></div>
+        <div class="row parallaxBanner">
+          <img src="images/banner2.jpg">
+        </div>
 
-        <div class="row gap">
+        <div class="row gap" id="section4">
           <h2>TEAM</h2>
         </div>
 
