@@ -18,30 +18,34 @@ include "includes/head.php";
 
     <?php include "includes/nav.php"; ?>
 
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navPadding">
-        <h3>Administrator Login</h3>
-        <p>Authorised Access Only</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navPadding">
+          <h3 class="adminH3">Administrator Login</h3>
+          <p>Authorised Access Only</p>
+        </div>
       </div>
-    </div>
 
-    <div class="row adminLoginForm">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <form class="" action="" method="POST" onsubmit="return LoginForm(this);">
-      		<label class="formArea">Email:<br>
-      			<input type="text" maxlength="" size="" name="LoginUserName">
-      		</label>
+      <div class="row adminLoginForm">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <form class="" action="" method="POST" onsubmit="return LoginForm(this);">
+        		<label class="formArea">Email:<br>
+        			<input type="text" maxlength="" size="" name="LoginUserName">
+        		</label>
 
-      		<label class="formArea">Password:<br>
-      			<input type="password" name="loginPassWord" size="12">
-      		</label><br>
+        		<label class="formArea">Password:<br>
+        			<input type="password" name="loginPassWord" size="12">
+        		</label><br>
 
-      		<label class="formSubmit">
-            <input type="submit"  name ="" value="LOGIN">
-      		</label><br>
-      	</form>
-    		<!-- form finish here -->
+        		<label class="formSubmit">
+              <input type="submit"  name ="" value="LOGIN">
+        		</label><br>
+        	</form>
+      		<!-- form finish here -->
+        </div>
       </div>
+
+      <?php include "includes/footer.php"; ?>
     </div>
 
   </body>

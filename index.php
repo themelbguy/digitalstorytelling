@@ -42,7 +42,7 @@ include "includes/head.php";
           <img src="images/banner1.JPG">
         </div>
 
-        <div class="row gap">
+        <div class="row gap" id="projects">
           <h2>PROJECTS</h2>
         </div>
 
@@ -88,7 +88,7 @@ include "includes/head.php";
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner2">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="workshops">
             <h2>WORKSHOPS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -100,7 +100,7 @@ include "includes/head.php";
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner3">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="resources">
             <h2>RESOURCES</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -112,11 +112,11 @@ include "includes/head.php";
           <img src="images/banner2.jpg">
         </div>
 
-        <div class="row gap">
+        <div class="row gap" id="team">
           <h2>TEAM</h2>
         </div>
 
-        <div class="row">
+        <div class="row" id="contact">
           <div id="map"></div>
         </div>
 
@@ -324,12 +324,12 @@ include "includes/head.php";
           <img src="images/banner1.JPG">
         </div>
 
-        <div class="row gap">
+        <div class="row gap" id="faqs">
           <h2>FAQ'S</h2>
         </div>
 
         <?php include "includes/footer.php"; ?>
-        
+
       </div>
 
   </body>
