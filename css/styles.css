@@ -114,6 +114,17 @@ nav
   transition: .3s ease;
 }
 
+li.active
+{
+  background-color: #1E1E1E !important;
+}
+
+li.active a
+{
+  background-color: #1E1E1E !important;
+  color: #E91E63 !important;
+}
+
 .navbar-brand img
 {
   height: 35px;
@@ -182,6 +193,27 @@ p
 {
   height: 224px;
   background-color: #AD1457;
+  text-align: center;
+}
+
+.footerText
+{
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
+.footerText a
+{
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
+.footerText a:hover
+{
+  opacity: 0.75;
+  transition: 0.3s ease;
+  text-decoration: none;
+  color: #E0E0E0;
 }
 
 .testimonialBox
@@ -298,12 +330,14 @@ input[type="text"]
   border-style: solid;
   width: 180px;
   background-color: #E0E0E0;
+  font-weight: normal;
 }
 
 input[type="text"]:focus
 {
   border-bottom: 1px solid #E91E63;
   transition: 0.3s ease;
+  font-weight: normal;
 }
 
 input[type="password"]
@@ -337,6 +371,11 @@ input[type="submit"]:hover
   transition: 0.3s ease;
 }
 
+textarea:focus, input:focus
+{
+  outline: none;
+}
+
 .adminLoginForm
 {
   text-align: center;
@@ -350,5 +389,22 @@ input[type="submit"]:hover
 
 .formSubmit
 {
-  padding-top: 50px;
+  margin-top: 50px;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.adminH3
+{
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a
+{
+  border: 1px solid green;
+  background-color: red;
 }
