@@ -14,12 +14,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#section1">PROJECTS</a></li>
-        <li><a href="#section2">WORKSHOPS</a></li>
-        <li><a href="#section3">RESOURCES</a></li>
-        <li><a href="#section4">TEAM</a></li>
-        <li><a href="#section5">CONTACT</a></li>
-        <li><a href="#section6">FAQ'S</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#workshops">WORKSHOPS</a></li>
+        <li><a href="#resources">RESOURCES</a></li>
+        <li><a href="#team">TEAM</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#faqs">FAQ'S</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

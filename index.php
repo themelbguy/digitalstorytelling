@@ -38,11 +38,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner">
+        <div class="row parallaxBanner" id="projects">
           <img src="images/banner1.JPG">
         </div>
 
-        <div class="row gap" id="section1">
+        <div class="row gap">
           <h2>PROJECTS</h2>
         </div>
 
@@ -84,11 +84,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row halfContent">
+        <div class="row halfContent" id="workshops">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner2">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="section2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <h2>WORKSHOPS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -96,11 +96,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row halfContent">
+        <div class="row halfContent" id="resources">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner3">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="section3">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <h2>RESOURCES</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -108,15 +108,15 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner">
+        <div class="row parallaxBanner" id="team">
           <img src="images/banner2.jpg">
         </div>
 
-        <div class="row gap" id="section4">
+        <div class="row gap">
           <h2>TEAM</h2>
         </div>
 
-        <div class="row">
+        <div class="row" id="contact">
           <div id="map"></div>
         </div>
 
@@ -320,7 +320,7 @@ include "includes/head.php";
           <h2>CONTACT</h2>
         </div>
 
-        <div class="row parallaxBanner">
+        <div class="row parallaxBanner" id="faqs">
           <img src="images/banner1.JPG">
         </div>
 
@@ -329,7 +329,7 @@ include "includes/head.php";
         </div>
 
         <?php include "includes/footer.php"; ?>
-        
+
       </div>
 
   </body>
