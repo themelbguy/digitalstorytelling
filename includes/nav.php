@@ -2,24 +2,24 @@
   <div class="container-fluid navContainer">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/DSTlogo.png" alt="Digital Storytelling Logo"></a>
+      <a href="index.php"><div class="navbar-brand"></div></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">WORKSHOPS</a></li>
-        <li><a href="#">RESOURCES</a></li>
-        <li><a href="#">TEAM</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">FAQ'S</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#workshops">WORKSHOPS</a></li>
+        <li><a href="#resources">RESOURCES</a></li>
+        <li><a href="#team">TEAM</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#faqs">FAQ'S</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
