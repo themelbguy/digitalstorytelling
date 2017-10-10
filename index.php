@@ -326,7 +326,24 @@ include "includes/head.php";
 
         <div class="row gap">
           <h2>FAQ'S</h2>
-        </div>
+		</div>
+		<div class="row">
+		<p class="accordion">Q1. What currency is the course charged in?</p>
+			<div class="panel">A. The course is charged in Australian dollars.</div>
+			<p class="accordion">Q2. What if the course doesn’t help me?</p>
+			<div class="panel">A. If it doesn't help you I'll refund the purchase price in full.</div>
+			<p class="accordion">Q3. When will the webinars take place?</p>
+			<div class="panel">A. Depending on the mix of countries and time zones for people attending the webinars, I will pick a time that works best for most participants. All webinars will be recorded so you can listen to them again. The private Facebook group will obviously be available 24/7 and I’ll be monitoring and contributing to the discussion regularly.</div>
+			<p class="accordion">Q4. What is the self-directed mentoring program?</p>
+			<div class="panel">A. The self-directed mentoring program is designed to help you set-up and run an effective mentee-mentor relationship as part of the course.</div>
+			<p class="accordion">Q5. Is Timeme Cool?</p>
+			<div class="panel">A. YESSS!!</div>
+			<p class="accordion">Q5. Is Timeme the best?</p>
+			<div class="panel">A. YESSS!!</div>
+			<p class="accordion">Q5. Is Timeme awesome?</p>
+			<div class="panel">A. YESSS!!</div>
+			  
+		</div>
 
         <?php include "includes/footer.php"; ?>
 
