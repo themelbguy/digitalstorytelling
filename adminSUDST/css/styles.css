@@ -13,68 +13,6 @@ nav
   border: none !important;
 }
 
-/* BACK ON TOP STYLES */
-
-.cd-top {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  position: fixed;
-  bottom: 40px;
-  right: 10px;
-  z-index: 1;
-  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*/
-  /* image replacement properties */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  background: rgba(30, 30, 30, 1) url(../images/cd-top-arrow.svg) no-repeat center 50%;
-  visibility: hidden;
-  opacity: 0;
-  /*-webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;*/
-}
-
-.cd-top:hover
-{
-  background: rgba(30, 30, 30, 1) url(../images/cd-top-arrow-colour.svg) no-repeat center 50%;
-  transition: 0.3s ease;
-}
-
-.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
-  -webkit-transition: opacity 0s 0s, visibility 0s 0s;
-  -moz-transition: opacity 0s 0s, visibility 0s 0s;
-  transition: opacity 0s 0s, visibility 0s 0s;
-}
-.cd-top.cd-is-visible {
-  /* the button becomes visible */
-  visibility: visible;
-  opacity: 1;
-}
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  /*opacity: 1;*/
-}
-.no-touch .cd-top:hover {
-  background-color: #e86256;
-  opacity: 1;
-}
-@media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 45px;
-    width: 45px;
-    right: 30px;
-    bottom: 30px;
-  }
-}
-
 .navbar-brand
 {
   height: auto;
@@ -180,6 +118,7 @@ h3
   font-family: "Josefin Sans" !important;
   font-size: 30px !important;
   color: #1E1E1E !important;
+  text-align: center;
 }
 
 p
@@ -379,6 +318,7 @@ textarea:focus, input:focus
 .adminLoginForm
 {
   text-align: center;
+  margin-top: 60px;
 }
 
 .formArea
@@ -390,17 +330,6 @@ textarea:focus, input:focus
 .formSubmit
 {
   margin-top: 50px;
-}
-
-#map {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-}
-
-.adminH3
-{
-  text-align: center;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a
