@@ -28,7 +28,7 @@ include "includes/head.php";
 
       <div class="row adminLoginForm">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <form class="" action="adminLanding.php" method="POST" onsubmit="return LoginForm(this);">
+          <form class="" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" onsubmit="return LoginForm(this);">
         		<label class="formArea">Email:<br>
         			<input type="text" maxlength="" size="" name="LoginUserName">
         		</label>
