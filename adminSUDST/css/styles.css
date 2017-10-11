@@ -87,6 +87,11 @@ li.active a
   transition: .3s ease;
 }
 
+.dropbtn:focus
+{
+  border: inherit;
+}
+
 .dropdown:hover
 {
   color: #E91E63 !important;
