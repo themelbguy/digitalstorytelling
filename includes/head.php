@@ -48,7 +48,7 @@ include "includes/myFunctions.php";
 
 	<!-- Bootstrap recommends including these at the end of the page  -->
     <!-- jQuery (necessary for Bootstrap's Javasrcipt plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 	<!-- link to required Bootstrap JS files -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -57,10 +57,18 @@ include "includes/myFunctions.php";
 	<!-- link to external JavaScript file -->
 	<script type="text/javascript" src="js/scripts.js"></script>
 
+<!-- link to external Vendor Modernizr file -->
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
 	<!-- link to Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab|Roboto:400,700|Raleway:400,700" rel="stylesheet">
 
 	<!-- link to ScrollMagic -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 </head>

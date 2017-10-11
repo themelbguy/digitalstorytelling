@@ -63,6 +63,11 @@ li.active a
   color: #E91E63 !important;
 }
 
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus
+{
+  background-color: #1E1E1E;
+}
+
 .navbar-brand img
 {
   height: 35px;
@@ -325,15 +330,11 @@ textarea:focus, input:focus
 {
   padding-left: 25px;
   padding-right: 25px;
+  margin-top: 25px;
 }
 
 .formSubmit
 {
   margin-top: 50px;
-}
-
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a
-{
-  border: 1px solid green;
-  background-color: red;
+  margin-bottom: 50px;
 }

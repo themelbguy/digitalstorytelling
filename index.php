@@ -38,8 +38,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner" id="projects">
-          <img src="images/banner1.JPG">
+        <div class="row bcg-parallax">
+            <div class="bcg" style="background: url('images/banner1.JPG') no-repeat; background-size: cover;"></div>
+            <div class="content-wrapper">
+                <h2>Parallax Test</h2>
+            </div>
         </div>
 
         <div class="row gap">
@@ -320,6 +323,38 @@ include "includes/head.php";
           <h2>CONTACT</h2>
         </div>
 
+        <div class="row feedbackForm">
+          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+  		      <h3 class="feedbackH3">Send us an email</h3>
+
+            <form class="" action="" method="POST" onsubmit="return LoginForm(this);">
+          		<label class="formAreafeedback">First Name<br>
+          			<input type="text" name="firstName" size="12" width="225">
+          		</label>
+      				<label class="formAreafeedback">Last Name<br>
+          			<input type="text" name="lastName" size="12">
+          		</label><br>
+      				<label class="formAreafeedback">Phone<br>
+          			<input type="text" name="phone" size="12">
+          		</label>
+      				<label class="formAreafeedback">Email<br>
+          			<input type="text" name="email" size="12">
+          		</label><br>
+      				<label class="formAreafeedback">Subject<br>
+          			<input type="text" name="subject" size="12">
+          		</label><br>
+      				<label class="formAreafeedback">Message<br>
+          			<input type="text" name="message" size="12">
+          		</label><br>
+
+          		<label class="formSubmitFeedback">
+                <input type="submit"  name ="" value="SEND">
+          		</label><br>
+          	</form>
+        		<!-- form finish here -->
+          </div>
+        </div>
+
         <div class="row parallaxBanner" id="faqs">
           <img src="images/banner1.JPG">
         </div>
@@ -327,6 +362,23 @@ include "includes/head.php";
         <div class="row gap">
           <h2>FAQ'S</h2>
         </div>
+
+        <div class="row">
+      		<p class="accordion">Q1. What currency is the course charged in?</p>
+    			<div class="panel">A. The course is charged in Australian dollars.</div>
+    			<p class="accordion">Q2. What if the course doesn’t help me?</p>
+    			<div class="panel">A. If it doesn't help you I'll refund the purchase price in full.</div>
+    			<p class="accordion">Q3. When will the webinars take place?</p>
+    			<div class="panel">A. Depending on the mix of countries and time zones for people attending the webinars, I will pick a time that works best for most participants. All webinars will be recorded so you can listen to them again. The private Facebook group will obviously be available 24/7 and I’ll be monitoring and contributing to the discussion regularly.</div>
+    			<p class="accordion">Q4. What is the self-directed mentoring program?</p>
+    			<div class="panel">A. The self-directed mentoring program is designed to help you set-up and run an effective mentee-mentor relationship as part of the course.</div>
+    			<p class="accordion">Q5. Is Timeme Cool?</p>
+    			<div class="panel">A. YESSS!!</div>
+    			<p class="accordion">Q5. Is Timeme the best?</p>
+    			<div class="panel">A. YESSS!!</div>
+    			<p class="accordion">Q5. Is Timeme awesome?</p>
+    			<div class="panel">A. YESSS!!</div>
+    		</div>
 
         <?php include "includes/footer.php"; ?>
 

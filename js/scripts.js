@@ -28,7 +28,6 @@ jQuery(document).ready(function($){
 });
 
 // THIS IS smooth scroll navigation bar
-
 $(document).ready(function(){
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 50});
@@ -54,4 +53,44 @@ $(document).ready(function(){
       });
     }  // End if
   });
+});
+
+//THIS IS FAQ ACCORDION
+document.addEventListener("DOMContentLoaded", function(event) {
+var acc = document.getElementsByClassName("accordion");
+var panel = document.getElementsByClassName('panel');
+for (var i = 0; i < acc.length; i++) {
+ acc[i].onclick = function() {
+ var setClasses = !this.classList.contains('active');
+ setClass(acc, 'active', 'remove');
+ setClass(panel, 'show', 'remove');
+ if (setClasses) {
+ this.classList.toggle("active");
+ this.nextElementSibling.classList.toggle("show");
+ }
+ }
+}
+function setClass(els, className, fnName) {
+ for (var i = 0; i < els.length; i++) {
+ els[i].classList[fnName](className);
+ }
+}
+});
+
+//THIS IS SCROLLMAGIC
+$(document).ready(function(){
+
+	// Init ScrollMagic
+	var controller = new ScrollMagic.Controller();
+
+	// parallax scene
+	var slideParallaxScene = new ScrollMagic.Scene({
+			triggerElement: '.bcg-parallax',
+			triggerHook: 1,
+			duration: '100%'
+	})
+	.setTween(TweenMax.from('.bcg', 1, {y: '-50%', ease:Power0.easeNone}))
+	.addTo(controller);
+
+
 });

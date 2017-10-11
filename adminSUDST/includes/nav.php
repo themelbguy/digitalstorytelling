@@ -8,16 +8,64 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="index.php"><div class="navbar-brand"></div></a>
+      <a href="adminLanding.php"><div class="navbar-brand"></div></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="">ADD</a></li>
-        <li><a href="">UPDATE</a></li>
-        <li><a href="">REMOVE</a></li>
-        <li><a href="">CHANGE PASSWORD</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ADD
+          <ul class="dropdown-menu">
+            <li><a href="#">ADMIN USER</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">IMAGE</a></li>
+            <li><a href="#">PROJECT CATEGORY</a></li>
+            <li><a href="#">PROJECT CONTENT</a></li>
+            <li><a href="#">RESOURCE</a></li>
+            <li><a href="#">RESOURCE CATEGORY</a></li>
+            <li><a href="#">SOCIAL MEDIA</a></li>
+            <li><a href="#">STAFF PROFILE</a></li>
+            <li><a href="#">TESTIOMINAL</a></li>
+            <li><a href="#">VIDEO BANNER</a></li>
+            <li><a href="#">WORKSHOP</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">UPDATE
+          <ul class="dropdown-menu">
+            <li><a href="#">ADMIN USER</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">IMAGE</a></li>
+            <li><a href="#">PROJECT CATEGORY</a></li>
+            <li><a href="#">PROJECT CONTENT</a></li>
+            <li><a href="#">RESOURCE</a></li>
+            <li><a href="#">RESOURCE CATEGORY</a></li>
+            <li><a href="#">SOCIAL MEDIA</a></li>
+            <li><a href="#">STAFF PROFILE</a></li>
+            <li><a href="#">TESTIOMINAL</a></li>
+            <li><a href="#">VIDEO BANNER</a></li>
+            <li><a href="#">WORKSHOP</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">REMOVE
+          <ul class="dropdown-menu">
+            <li><a href="#">ADMIN USER</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">IMAGE</a></li>
+            <li><a href="#">PROJECT CATEGORY</a></li>
+            <li><a href="#">PROJECT CONTENT</a></li>
+            <li><a href="#">RESOURCE</a></li>
+            <li><a href="#">RESOURCE CATEGORY</a></li>
+            <li><a href="#">SOCIAL MEDIA</a></li>
+            <li><a href="#">STAFF PROFILE</a></li>
+            <li><a href="#">TESTIOMINAL</a></li>
+            <li><a href="#">VIDEO BANNER</a></li>
+            <li><a href="#">WORKSHOP</a></li>
+          </ul>
+        </li>
+        <li><a href="changePassword.php">CHANGE PASSWORD</a></li>
         <li><a href="adminLogin.php">LOGOUT</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
