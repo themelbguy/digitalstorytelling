@@ -111,8 +111,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner" id="team">
-          <img src="images/banner2.jpg">
+        <div class="row bcg-parallax">
+            <div class="bcg" style="background: url('images/banner2.jpg') no-repeat; background-size: cover;"></div>
+            <div class="content-wrapper">
+                <h2>Parallax Test</h2>
+            </div>
         </div>
 
         <div class="row gap">
@@ -355,8 +358,11 @@ include "includes/head.php";
           </div>
         </div>
 
-        <div class="row parallaxBanner" id="faqs">
-          <img src="images/banner1.JPG">
+        <div class="row bcg-parallax">
+            <div class="bcg" style="background: url('images/banner1.JPG') no-repeat; background-size: cover;"></div>
+            <div class="content-wrapper">
+                <h2>Parallax Test</h2>
+            </div>
         </div>
 
         <div class="row gap">
