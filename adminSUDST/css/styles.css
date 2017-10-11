@@ -69,6 +69,52 @@ li.active a
   margin-left: 25px;
 }
 
+.dropbtn
+{
+  background-color: inherit;
+  border: none;
+  color: #E0E0E0 !important;
+  font-family: "Josefin Sans";
+  text-shadow: none !important;
+  letter-spacing: 2px;
+  margin-top: 22px;
+  margin-right: 25px;
+}
+
+.dropbtn:hover
+{
+  color: #E91E63 !important;
+  transition: .3s ease;
+}
+
+.dropdown:hover
+{
+  color: #E91E63 !important;
+  transition: .3s ease;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1E1E1E;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
+    text-align: left;
+}
+
+.show {
+    display: block;
+}
+
 .row
 {
   /*border: 1px solid pink;*/
