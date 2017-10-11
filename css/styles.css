@@ -380,6 +380,10 @@ textarea:focus, input:focus
 {
   text-align: center;
 }
+.feedbackForm
+{
+  text-align: left;
+}
 
 .formArea
 {
@@ -387,11 +391,25 @@ textarea:focus, input:focus
   padding-right: 25px;
   margin-top: 25px;
 }
+.formAreafeedback
+{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
+  text-align: left;
+}
 
 .formSubmit
 {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.formSubmitFeedback
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 25px;
 }
 
 #map {
@@ -403,6 +421,11 @@ textarea:focus, input:focus
 .adminH3
 {
   text-align: center;
+}
+.feedbackH3
+{
+  text-align: left;
+  margin-left: 25px;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a
