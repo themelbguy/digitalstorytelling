@@ -13,68 +13,6 @@ nav
   border: none !important;
 }
 
-/* BACK ON TOP STYLES */
-
-.cd-top {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  position: fixed;
-  bottom: 40px;
-  right: 10px;
-  z-index: 1;
-  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*/
-  /* image replacement properties */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  background: rgba(30, 30, 30, 1) url(../images/cd-top-arrow.svg) no-repeat center 50%;
-  visibility: hidden;
-  opacity: 0;
-  /*-webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;*/
-}
-
-.cd-top:hover
-{
-  background: rgba(30, 30, 30, 1) url(../images/cd-top-arrow-colour.svg) no-repeat center 50%;
-  transition: 0.3s ease;
-}
-
-.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
-  -webkit-transition: opacity 0s 0s, visibility 0s 0s;
-  -moz-transition: opacity 0s 0s, visibility 0s 0s;
-  transition: opacity 0s 0s, visibility 0s 0s;
-}
-.cd-top.cd-is-visible {
-  /* the button becomes visible */
-  visibility: visible;
-  opacity: 1;
-}
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  /*opacity: 1;*/
-}
-.no-touch .cd-top:hover {
-  background-color: #e86256;
-  opacity: 1;
-}
-@media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 45px;
-    width: 45px;
-    right: 30px;
-    bottom: 30px;
-  }
-}
-
 .navbar-brand
 {
   height: auto;
@@ -180,6 +118,7 @@ h3
   font-family: "Josefin Sans" !important;
   font-size: 30px !important;
   color: #1E1E1E !important;
+  text-align: center;
 }
 
 p
@@ -379,6 +318,7 @@ textarea:focus, input:focus
 .adminLoginForm
 {
   text-align: center;
+  margin-top: 60px;
 }
 
 .formArea
@@ -392,83 +332,8 @@ textarea:focus, input:focus
   margin-top: 50px;
 }
 
-#map {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-}
-
-.adminH3
-{
-  text-align: center;
-}
-
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a
-{	
-	background-image: -webkit-linear-gradient(top,#1E1E1E  0, #1E1E1E 100%) !important;
-    background-image: -o-linear-gradient(top,##1E1E1E 0,#1E1E1E 100%)!important;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#1E1E1E),to(#1E1E1E))!important;
-    background-image: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 100%) !important;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1E1E1E', endColorstr='#1E1E1E', GradientType=0) !important;
-    background-repeat: repeat-x;
-    -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
-    box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
-}
-
-/*THIS IS FAQ ACCORDION*/
-p.accordion {
- background-color: #E0E0E0;
- color:#1E1E1E;
- cursor: pointer;
- padding: 0px;
- width: 100%;
- text-align: left;
- border: none;
- outline: none;
- transition: 0.3s;
- margin-bottom:5px;
-}
-/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-p.accordion.active, p.accordion:hover {
- /*background-color: white;*/
- opacity: 0.7;
-}
-/* Unicode character for "plus" sign (+) */
-p.accordion:after {
- content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: left;
-    margin-left: 5px;
-    margin: 0px 20px 0px 50px;
-}
-/* Unicode character for "minus" sign (-) */
-p.accordion.active:after {
- content: "\2212";
-}
-/* Style the element that is used for the panel class */
-div.panel {
- padding: 0 85px;
- background-color: #E0E0E0;
- max-height: 0;
- overflow: hidden;
- transition: 0.3s ease-in-out;
- opacity: 0;
- margin-bottom:10px;
- box-shadow: 0 0px 0px rgba(0,0,0,.05);
-}
-div.panel.show {
- opacity: 1;
- max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
-}
-
 {
-	background-image: -webkit-linear-gradient(top,#1E1E1E  0, #1E1E1E 100%) !important;
-  background-image: -o-linear-gradient(top,##1E1E1E 0,#1E1E1E 100%)!important;
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#1E1E1E),to(#1E1E1E))!important;
-  background-image: linear-gradient(to bottom,#1E1E1E 0,#1E1E1E 100%) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1E1E1E', endColorstr='#1E1E1E', GradientType=0) !important;
-  background-repeat: repeat-x;
-  -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
-  box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+  border: 1px solid green;
+  background-color: red;
 }
