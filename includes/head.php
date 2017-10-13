@@ -56,6 +56,7 @@ include "includes/myFunctions.php";
 
 	<!-- link to external JavaScript file -->
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
 
 <!-- link to external Vendor Modernizr file -->
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>

@@ -13,6 +13,105 @@ nav
   border: none !important;
 }
 
+
+/*============ MEDIA QUERIES ============*/
+@media (max-width:480px)
+{
+	.halfContent h2
+	{
+	  margin-left: 50px;
+	  margin-top: 8%;
+	}
+
+	.parallaxBanner img
+	{
+	  width: 100vw;
+	  height: 200px;
+	  overflow: hidden;
+	  object-fit: cover;
+	  margin-left: -16px;
+	}
+
+	.parallaxBanner2
+	{
+	  height: 200px;
+	  width: 50vw;
+	  background-image: url(../images/whiteboard.jpg);
+	}
+
+	.parallaxBanner3
+	{
+	  height: 200px;
+	  width: 50vw;
+	  background-image: url(../images/laptop.jpg);
+	}
+
+	.projectsForBigSize
+	{
+		display: none;
+	}
+}
+
+@media (min-width:481px) and (max-width: 768px)
+{
+	.parallaxBanner img
+	{
+	  width: 100vw;
+	  height: 200px;
+	  overflow: hidden;
+	  object-fit: cover;
+	  margin-left: -16px;
+	}
+
+	.halfContent h2
+	{
+	  margin-left: 50px;
+	  margin-top: 8%;
+	}
+
+	.parallaxBanner2
+	{
+	  height: 200px;
+	  width: 50vw;
+	  background-image: url(../images/whiteboard.jpg);
+	}
+
+	.parallaxBanner3
+	{
+	  height: 200px;
+	  width: 50vw;
+	  background-image: url(../images/laptop.jpg);
+	}
+	.projectsForBigSize
+	{
+		display: none;
+	}
+}
+
+@media (min-width:769px)and (max-width:991px)
+{
+	.projectsHeadings
+	{
+		margin-top: -47px;
+	}
+	.projectsForSmallSize
+	{
+		display: none;
+	}
+}
+
+@media (min-width:992px)
+{
+	.projectsHeadings
+	{
+		margin-top: -47px;
+	}
+	.projectsForSmallSize
+	{
+		display:none;
+	}
+}
+
 /* BACK ON TOP STYLES */
 
 .cd-top {
@@ -57,7 +156,6 @@ nav
   /*opacity: 1;*/
 }
 .no-touch .cd-top:hover {
-  background-color: #e86256;
   opacity: 1;
 }
 @media only screen and (min-width: 768px) {
@@ -147,12 +245,12 @@ li.active a
   padding-top: 150px;
 }
 
-.halfContent h2
+/*.halfContent h2
 {
   margin-left: -10%;
   margin-top: 8%;
 }
-
+*/
 .halfContent p
 {
   margin: 50px;
@@ -219,7 +317,7 @@ p
 .testimonialBox
 {
   background-color: #E91E63;
-  height: 153px;
+  /*height: 153px;*/
 }
 
 .testimonial
@@ -515,3 +613,70 @@ div.panel.show {
   position: relative;
   z-index: 2;
 }
+/* css for accordion videos for smaller sizes with new classes. test purpose  
+p.accordionVideos
+{
+ background-color: #E0E0E0;
+ color:#1E1E1E;
+ cursor: pointer;
+ padding: 0px;
+ width: 100%;
+ text-align: left;
+ border: none;
+ outline: none;
+ transition: 0.3s;
+ margin-bottom:5px;
+}
+*/
+p.accordionVideos.active, p.accordionVideos:hover {
+ /*background-color: white;*/
+ opacity: 0.7;
+}
+
+
+/* Style the element that is used for the panel class */
+div.panelVideos {
+ padding: 0 85px;
+ background-color: #E0E0E0;
+ max-height: 0;
+ overflow: hidden;
+ transition: 0.3s ease-in-out;
+ opacity: 0;
+ margin-bottom:10px;
+ box-shadow: 0 0px 0px rgba(0,0,0,.05);
+}
+div.panelVideos.show {
+ opacity: 1;
+ max-height: 500px; 
+}
+
+
+
+
+
+
+
+
+
+ p.accordionVideos {
+    background-color: #32C8B6;
+    color: #1E1E1E;
+    cursor: pointer;
+    width: 148px;
+    height: 45px;
+    margin-left: 68px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 5px;
+    padding-top: 12px;
+    font-size: 18px;
+    padding-left: 25px;
+}
+p.accordionVideos:hover {
+    background-color: #E91E63; 
+    opacity: 1;
+}
+
+
+

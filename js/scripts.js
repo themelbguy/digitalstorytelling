@@ -77,6 +77,32 @@ function setClass(els, className, fnName) {
 }
 });
 
+
+
+//THIS IS VIDEOS ACCORDION
+document.addEventListener("DOMContentLoaded", function(event) {
+var acc = document.getElementsByClassName("accordionVideos");
+var panel = document.getElementsByClassName('panelVideos');
+for (var i = 0; i < acc.length; i++) {
+ acc[i].onclick = function() {
+ var setClasses = !this.classList.contains('active');
+ setClass(acc, 'active', 'remove');
+ setClass(panel, 'show', 'remove');
+ if (setClasses) {
+ this.classList.toggle("active");
+ this.nextElementSibling.classList.toggle("show");
+ }
+ }
+}
+function setClass(els, className, fnName) {
+ for (var i = 0; i < els.length; i++) {
+ els[i].classList[fnName](className);
+ }
+}
+});
+
+
+
 //THIS IS SCROLLMAGIC
 $(document).ready(function(){
 
@@ -91,6 +117,4 @@ $(document).ready(function(){
 	})
 	.setTween(TweenMax.from('.bcg', 1, {y: '-50%', ease:Power0.easeNone}))
 	.addTo(controller);
-
-
 });

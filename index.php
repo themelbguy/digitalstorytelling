@@ -22,7 +22,7 @@ include "includes/head.php";
 
         <div class="heroBanner">
           <video autoplay muted loop class="embed-responsive-item" id="autovid">
-              <source src="images/mm1_1.mp4" type="video/mp4">
+              <source src="images/9mb.mp4" type="video/mp4">
           </video>
 
           <div class="heroText">
@@ -45,53 +45,87 @@ include "includes/head.php";
             </div>
         </div>
 
-        <div class="row gap">
+        <div class="row gap" id="projects">
           <h2>PROJECTS</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
-          </div>
+        <!-- 767px and smaller -->
+        <div class="projectsForSmallSize">
+    			<div class="row fullContent">
+    			  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      				<h3>Category 1</h3>
+      				<p>Year: 2017</p>
+      				<p>Aliquam erat volutpat. Curabitur ornare neque in mollis pulvinar. Etiam porttitor viverra erat, in fermentum mauris tincidunt eget. Donec porttitor ipsum tempus pharetra malesuada.</p>
+    			  </div>
+    			</div>
+				
+				<div class="row">
+					<p class="accordionVideos">View Videos</p>
+					<div class="panelVideos"> put videos here</div>
+				</div>
 
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
-          </div>
+          <!-- VIEW VIDEOS GOES HERE -->
 
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
-          </div>
-        </div>
+    			<div class="row fullContent">
+    				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    				  <h3>Category 2 </h3>
+    					<p>Year: 2017</p>
+    					<p>Aliquam erat volutpat. Curabitur ornare neque in mollis pulvinar. Etiam porttitor viverra erat, in fermentum mauris tincidunt eget. Donec porttitor ipsum tempus pharetra malesuada.</p>
+    				</div>
+    			</div>
+				<div class="row">
+					<p class="accordionVideos">View Videos</p>
+					<div class="panelVideos"> put videos here</div>
+				</div>
 
-        <div class="row fullContent">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3>Category 1</h3>
-            <p>Year: 2017</p>
-            <p>Aliquam erat volutpat. Curabitur ornare neque in mollis pulvinar. Etiam porttitor viverra erat, in fermentum mauris tincidunt eget. Donec porttitor ipsum tempus pharetra malesuada.</p>
-          </div>
-        </div>
+          <!-- VIEW VIDEOS GOES HERE -->
+		</div>
+        <!-- 768px and larger -->
+    		<div class="projectsForBigSize">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
+              </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
-          </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
+              </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
-          </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
+              </div>
+            </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
-          </div>
-        </div>
+            <div class="row fullContent">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>Category 1</h3>
+                <p>Year: 2017</p>
+                <p>Aliquam erat volutpat. Curabitur ornare neque in mollis pulvinar. Etiam porttitor viverra erat, in fermentum mauris tincidunt eget. Donec porttitor ipsum tempus pharetra malesuada.</p>
+              </div>
+            </div>
 
-        <div class="row fullContent">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3>Category 2</h3>
-            <p>Year: 2016</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.</p>
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 vidThumb">
+              </div>
+            </div>
+
+            <div class="row fullContent">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>Category 2</h3>
+                <p>Year: 2016</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.</p>
+              </div>
+            </div>
+    		</div>
 
         <div class="row halfContent" id="workshops">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner2">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 parallaxBanner2">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <h2>WORKSHOPS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -100,10 +134,10 @@ include "includes/head.php";
         </div>
 
         <div class="row halfContent" id="resources">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 parallaxBanner3">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 parallaxBanner3">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <h2>RESOURCES</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec sodales lectus. Aenean ac feugiat mauris, a tristique ipsum. Sed rutrum nisi a sem interdum congue. Quisque a augue vitae nulla gravida faucibus. Cras at auctor lorem. Donec neque diam, congue sed odio vitae, vulputate scelerisque dolor. Praesent accumsan metus elit, eget luctus nunc lacinia eget. Duis sollicitudin lacus quis neque facilisis rutrum.
             <br><br>
@@ -118,7 +152,7 @@ include "includes/head.php";
             </div>
         </div>
 
-        <div class="row gap">
+        <div class="row gap" id="team">
           <h2>TEAM</h2>
         </div>
 
@@ -330,7 +364,7 @@ include "includes/head.php";
           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
   		      <h3 class="feedbackH3">Send us an email</h3>
 
-            <form class="" action="" method="POST" onsubmit="return LoginForm(this);">
+            <form class="" action="" method="POST" onsubmit="return feedbackForm(this);">
           		<label class="formAreafeedback">First Name<br>
           			<input type="text" name="firstName" size="12" width="225">
           		</label>
@@ -359,13 +393,13 @@ include "includes/head.php";
         </div>
 
         <div class="row bcg-parallax">
-            <div class="bcg" style="background: url('images/banner1.JPG') no-repeat; background-size: cover;"></div>
+            <div class="bcg2" style="background: url('images/banner1.JPG') no-repeat; background-size: cover;"></div>
             <div class="content-wrapper">
                 <h2>Parallax Test</h2>
             </div>
         </div>
 
-        <div class="row gap">
+        <div class="row gap" id="faqs">
           <h2>FAQ'S</h2>
         </div>
 
@@ -376,14 +410,9 @@ include "includes/head.php";
     			<div class="panel">A. If it doesn't help you I'll refund the purchase price in full.</div>
     			<p class="accordion">Q3. When will the webinars take place?</p>
     			<div class="panel">A. Depending on the mix of countries and time zones for people attending the webinars, I will pick a time that works best for most participants. All webinars will be recorded so you can listen to them again. The private Facebook group will obviously be available 24/7 and I’ll be monitoring and contributing to the discussion regularly.</div>
-    			<p class="accordion">Q4. What is the self-directed mentoring program?</p>
-    			<div class="panel">A. The self-directed mentoring program is designed to help you set-up and run an effective mentee-mentor relationship as part of the course.</div>
-    			<p class="accordion">Q5. Is Timeme Cool?</p>
-    			<div class="panel">A. YESSS!!</div>
-    			<p class="accordion">Q5. Is Timeme the best?</p>
-    			<div class="panel">A. YESSS!!</div>
-    			<p class="accordion">Q5. Is Timeme awesome?</p>
-    			<div class="panel">A. YESSS!!</div>
+    			<p class="accordion">Q3. When will the webinars take place?</p>
+    			<div class="panel">A. Depending on the mix of countries and time zones for people attending the webinars, I will pick a time that works best for most participants. All webinars will be recorded so you can listen to them again. The private Facebook group will obviously be available 24/7 and I’ll be monitoring and contributing to the discussion regularly.</div>
+    			
     		</div>
 
         <?php include "includes/footer.php"; ?>
