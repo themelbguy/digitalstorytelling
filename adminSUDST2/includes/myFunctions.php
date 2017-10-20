@@ -66,6 +66,7 @@ function checkCustomerLogin($em, $pw)
 		// save customer data to session variables
 		$_SESSION['email'] = $row['email'];
 		$_SESSION['firstName'] = $row['firstName'];
+		$_SESSION['lastName'] = $row['lastName'];
 	}
 
 	else

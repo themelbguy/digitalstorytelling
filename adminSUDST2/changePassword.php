@@ -31,7 +31,7 @@ include "includes/head.php";
 
       <div class="row adminLoginForm">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <form class="" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" onsubmit="return changePass(this);">
+          <form class="" action="" method="POST" onsubmit="return changePass(this);">
         		<label class="formArea">Current Password:<br>
         			<input type="password" name="password" size="16">
         		</label><br>
@@ -82,7 +82,7 @@ if(isset($_POST['formPassword']))
 
 		// bind the values to the statement's placeholders
 		$statement->bindValue(':email', $_SESSION['email']);
-		$statement->bindValue(':password',$password);
+		$statement->bindValue(':password', sha1($password));
 
 		// execute sql statement
 		$statement->execute();
